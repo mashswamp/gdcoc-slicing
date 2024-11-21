@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Slicing</title>
+
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts : Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MAIN CONTENT START -->
+
+    <!-- CONTACT INFO START -->
+    <section id="contact-info">
+      <div class="phone-number">
+        <span class="material-symbols-outlined"> call </span>
+        (225) 555-0118
+      </div>
+      <div class="email">
+        <span class="material-symbols-outlined"> mail </span>
+        michelle.rivera@example.com
+      </div>
+      <div class="mini-text">Follow Us and get a chance to win 80% off</div>
+      <div class="follow-us">
+        Follow us :
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </section>
+    <!-- CONTACT INFO END -->
+
+    <!-- NAVBAR START -->
+    <nav id="nav">
+      <div class="nav-title">
+        <a href="#"><span>Bandage</span></a>
+        <div class="menu-bar">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <a href="#"><span>Home</span></a>
+        <a href="#">
+          Shop
+          <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+        </a>
+        <a href="#"><span>About</span></a>
+        <a href="#"><span>Blog</span></a>
+        <a href="#"><span>Contact</span></a>
+        <a href="#"><span>Pages</span></a>
+      </div>
+      <div class="nav-extra">
+        <a href="#"
+          ><span class="material-symbols-outlined"> person </span> Login /
+          Register</a
+        >
+        <a href="#" class="search-btn"
+          ><span class="material-symbols-outlined"> search </span></a
+        >
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Search..." />
+          </form>
+        </div>
+        <a href="#">
+          <span class="material-symbols-outlined"> shopping_cart </span>1</a
+        >
+        <a href="#"
+          ><span class="material-symbols-outlined"> favorite </span>1</a
+        >
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO DIRECTORY -->
+    <section id="hero-directory">
+      <div class="content-directory">
+        <span class="active-directory">Home</span>
+        <span class="material-symbols-outlined"> chevron_right </span>
+        <span>Shop</span>
+      </div>
+    </section>
+    <!-- HERO DIRECTORY END -->
+
+    <!-- HERO CONTENT START -->
+    <section id="hero-content">
+      <div class="image-slider">
+        <img
+          id="main-image"
+          src="img/img-1.jpg"
+          alt="Product Image"
+          class="main-image"
+        />
+        <div class="controls">
+          <button class="prev-btn">
+            <span class="material-symbols-outlined"> arrow_back_ios </span>
+          </button>
+          <button class="next-btn">
+            <span class="material-symbols-outlined"> arrow_forward_ios </span>
+          </button>
+        </div>
+        <div class="thumbnails">
+          <img
+            src="img/img-1.jpg"
+            alt="Thumbnail 1"
+            class="thumbnail active"
+            data-index="0"
+          />
+          <img
+            src="img/img-2.jpg"
+            alt="Thumbnail 2"
+            class="thumbnail"
+            data-index="1"
+          />
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="details-desc">
+          <h2 class="product-title">Floating Phone</h2>
+          <div class="rating">
+            <span>⭐⭐⭐⭐☆</span> <span class="reviews">10 Reviews</span>
+          </div>
+          <p class="price">$1,139.33</p>
+          <p class="availability">
+            Availability: <span class="in-stock">In Stock</span>
+          </p>
+          <p class="description">
+            Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+            RELIT official consequent door ENIM RELIT Mollie.
+          </p>
+          <hr />
+          <div class="color-circle">
+            <div class="blue"></div>
+            <div class="green"></div>
+            <div class="orange"></div>
+            <div class="black"></div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn primary-btn">Select Options</button>
+          <button class="btn icon-btn">
+            <span class="material-symbols-outlined"> favorite </span>
+          </button>
+          <button class="btn icon-btn">
+            <span class="material-symbols-outlined"> shopping_cart </span>
+          </button>
+          <button class="btn icon-btn">
+            <span class="material-symbols-outlined"> visibility </span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- HERO CONTENT END -->
+
+    <!-- BEST-SELLER START -->
+    <section id="best-seller">
+      <h2>BESTSELLER PRODUCT</h2>
+      <hr />
+      <div class="product-grid">
+        <div class="card">
+          <img src="img/img-3.png" alt="Product Image 1" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-4.png" alt="Product Image 2" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-5.png" alt="Product Image 3" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-6.png" alt="Product Image 4" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-7.png" alt="Product Image 5" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-8.png" alt="Product Image 6" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-3.png" alt="Product Image 6" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/img-4.png" alt="Product Image 6" />
+          <div class="card-content">
+            <h3 class="card-title">Graphic Design</h3>
+            <p class="card-department">English Department</p>
+            <div class="card-pricing">
+              <span class="old-price">$16.48</span>
+              <span class="new-price">$6.48</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BEST-SELLER END -->
+
+    <!-- MAIN CONTENT END -->
+    <script
+      src="https://kit.fontawesome.com/b8265bae64.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
